@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iCar_Asia" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HQK-XU-pdd">
+                                <rect key="frame" x="20" y="286" width="560" height="288"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SVV-HI-6nX">
+                                <rect key="frame" x="20" y="58" width="560" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Send Message 1">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Message1BtnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Onb-GH-tw4"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kzQ-3F-XwU">
+                                <rect key="frame" x="20" y="96" width="560" height="30"/>
+                                <color key="backgroundColor" red="0.89803922176361084" green="0.88235294818878174" blue="0.85882353782653809" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">You can find the listing at https://www.carlist.my/used-cars/3300445/2011-toyota-vios-1-5-trd-sportivo-33-000km-full-toyota-serviced-record-like-new-11/</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SOf-V7-pHM">
+                                <rect key="frame" x="20" y="134" width="560" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Send Message 2">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Message2BtnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7p3-dZ-2Dn"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="I have another car at http://www.example.com/listing10.htm" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="C64-Mg-6j6">
+                                <rect key="frame" x="20" y="172" width="560" height="30"/>
+                                <color key="backgroundColor" red="0.86666667461395264" green="0.85882353782653809" blue="0.83921569585800171" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9O0-yv-C05">
+                                <rect key="frame" x="20" y="210" width="560" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Send Message 3">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Message3BtnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KnX-7d-Evv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nJv-7h-KX6">
+                                <rect key="frame" x="20" y="248" width="560" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Send Message 1 + Message 2 + Message 3 ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="MessageAllBtnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bzJ-cK-b7s"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Hi Lee, can you call me at +60175570098" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TpY-Qc-QXe">
+                                <rect key="frame" x="20" y="20" width="560" height="30"/>
+                                <color key="backgroundColor" red="0.96470588445663452" green="0.96078431606292725" blue="0.94509804248809814" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SOf-V7-pHM" firstAttribute="leading" secondItem="C64-Mg-6j6" secondAttribute="leading" id="1nS-O3-hGB"/>
+                            <constraint firstItem="SOf-V7-pHM" firstAttribute="trailing" secondItem="C64-Mg-6j6" secondAttribute="trailing" id="3De-h6-1cB"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="HQK-XU-pdd" secondAttribute="bottom" constant="26" id="8hS-rk-Yeg"/>
+                            <constraint firstItem="kzQ-3F-XwU" firstAttribute="top" secondItem="SVV-HI-6nX" secondAttribute="bottom" constant="8" symbolic="YES" id="BnQ-JQ-oFa"/>
+                            <constraint firstItem="TpY-Qc-QXe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="F1G-UP-fcv"/>
+                            <constraint firstItem="kzQ-3F-XwU" firstAttribute="trailing" secondItem="SOf-V7-pHM" secondAttribute="trailing" id="KyB-Og-0UG"/>
+                            <constraint firstItem="SVV-HI-6nX" firstAttribute="top" secondItem="TpY-Qc-QXe" secondAttribute="bottom" constant="8" symbolic="YES" id="MUf-DT-iJU"/>
+                            <constraint firstItem="TpY-Qc-QXe" firstAttribute="leading" secondItem="SVV-HI-6nX" secondAttribute="leading" id="NyE-5G-aC9"/>
+                            <constraint firstItem="SVV-HI-6nX" firstAttribute="leading" secondItem="kzQ-3F-XwU" secondAttribute="leading" id="QGx-NK-x5Y"/>
+                            <constraint firstItem="SVV-HI-6nX" firstAttribute="trailing" secondItem="kzQ-3F-XwU" secondAttribute="trailing" id="a1Z-bu-9QY"/>
+                            <constraint firstItem="HQK-XU-pdd" firstAttribute="top" secondItem="nJv-7h-KX6" secondAttribute="bottom" constant="8" symbolic="YES" id="cWV-7h-35R"/>
+                            <constraint firstItem="9O0-yv-C05" firstAttribute="leading" secondItem="nJv-7h-KX6" secondAttribute="leading" id="dHw-CO-YQZ"/>
+                            <constraint firstItem="TpY-Qc-QXe" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="f19-v9-DvQ"/>
+                            <constraint firstItem="9O0-yv-C05" firstAttribute="trailing" secondItem="nJv-7h-KX6" secondAttribute="trailing" id="ht7-1J-g6A"/>
+                            <constraint firstItem="TpY-Qc-QXe" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="mXd-Zj-U3Z"/>
+                            <constraint firstItem="C64-Mg-6j6" firstAttribute="leading" secondItem="9O0-yv-C05" secondAttribute="leading" id="nqC-RH-yc3"/>
+                            <constraint firstItem="nJv-7h-KX6" firstAttribute="trailing" secondItem="HQK-XU-pdd" secondAttribute="trailing" id="oK3-AI-0nC"/>
+                            <constraint firstItem="kzQ-3F-XwU" firstAttribute="leading" secondItem="SOf-V7-pHM" secondAttribute="leading" id="pMW-J3-4Hz"/>
+                            <constraint firstItem="SOf-V7-pHM" firstAttribute="top" secondItem="kzQ-3F-XwU" secondAttribute="bottom" constant="8" symbolic="YES" id="qGN-ee-wld"/>
+                            <constraint firstItem="C64-Mg-6j6" firstAttribute="top" secondItem="SOf-V7-pHM" secondAttribute="bottom" constant="8" symbolic="YES" id="qWU-zg-rPd"/>
+                            <constraint firstItem="nJv-7h-KX6" firstAttribute="top" secondItem="9O0-yv-C05" secondAttribute="bottom" constant="8" symbolic="YES" id="sBS-Fc-o7H"/>
+                            <constraint firstItem="nJv-7h-KX6" firstAttribute="leading" secondItem="HQK-XU-pdd" secondAttribute="leading" id="sTm-mU-65N"/>
+                            <constraint firstItem="TpY-Qc-QXe" firstAttribute="trailing" secondItem="SVV-HI-6nX" secondAttribute="trailing" id="vFj-sM-vCu"/>
+                            <constraint firstItem="9O0-yv-C05" firstAttribute="top" secondItem="C64-Mg-6j6" secondAttribute="bottom" constant="8" symbolic="YES" id="xFZ-fj-PKg"/>
+                            <constraint firstItem="C64-Mg-6j6" firstAttribute="trailing" secondItem="9O0-yv-C05" secondAttribute="trailing" id="xoV-Xc-QB2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Message1TF" destination="TpY-Qc-QXe" id="9Vy-8l-Wc6"/>
+                        <outlet property="Message2TF" destination="kzQ-3F-XwU" id="phD-Tu-7Ac"/>
+                        <outlet property="Message3TF" destination="C64-Mg-6j6" id="nvd-g6-Hgd"/>
+                        <outlet property="textView" destination="HQK-XU-pdd" id="Lrq-7Q-csl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="455" y="388"/>
+        </scene>
+    </scenes>
+</document>
